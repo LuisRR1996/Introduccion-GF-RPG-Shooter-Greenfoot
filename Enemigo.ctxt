@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Enemigo
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Enemigo\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=dx\ dy
+comment1.target=Enemigo(int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ mover()
+comment4.params=
+comment4.target=void\ rebotarBordes()
+comment5.params=
+comment5.target=void\ detectarColision()
+comment5.text=\r\n\ \ \ \ private\ void\ eliminarAlBorde(){\r\n\ \ \ \ \ \ \ \ World\ mundo\ \=\ getWorld();\r\n\ \ \ \ \ \ \ \ if(mundo\ \=\=\ null)\ return;\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ int\ mitadAncho\ \=\ getImage().getWidth()/2;\r\n\ \ \ \ \ \ \ \ int\ mitadAlto\ \=\ getImage().getHeight()/2;\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //Evaluamos\ los\ personajes\ que\ salen\ o\ tocan\ el\ borde\r\n\ \ \ \ \ \ \ \ if(getX()\ <\ -50\ ||\ getX()\ >\ getWorld().getWidth()\ +\ 50\ ||\ getY()\ <\ -50\ ||\ getY()\ >\ getWorld().getHeight()\ +\ 50){\r\n\ \ \ \ \ \ \ \ \ \ \ \ getWorld().removeObject(this);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ /////////////////////////////////////////////////////////////////////\r\n\ \ \ \ \ \ \ \ if(isAtEdge()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ World\ mundo\ \=\ getWorld();\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(mundo\ \!\=\ null){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ mundo.removeObject(this);\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n}
+numComments=6

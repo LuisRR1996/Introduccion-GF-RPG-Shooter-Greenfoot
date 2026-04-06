@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Marcador
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Marcador\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=textoInicial\ valorInicial
+comment1.target=Marcador(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ actualizar()
+comment4.params=cantidad
+comment4.target=void\ sumar(int)
+comment5.params=cantidad
+comment5.target=void\ restar(int)
+comment6.params=
+comment6.target=int\ getValor()
+numComments=7

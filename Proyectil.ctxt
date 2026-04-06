@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Proyectil
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Proyectil\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=mouseX\ mouseY\ inicioX\ inicioY
+comment1.target=Proyectil(int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ movimiento()
+comment3.text=\r\n\ \ \ \ //Para\ horizontal\r\n\ \ \ \ private\ void\ movimiento(){\r\n\ \ \ \ \ \ \ \ //Movimiento\ en\ Horizontal\r\n\ \ \ \ \ \ \ \ setLocation(getX()\ +\ velocidad,\ getY());\r\n}
+comment4.params=
+comment4.target=void\ eliminarAlBorde()
+comment5.params=
+comment5.target=void\ detectarColision()
+numComments=6
